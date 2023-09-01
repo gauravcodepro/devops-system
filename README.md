@@ -1,5 +1,15 @@
 # devops_system_util
-A devops ruby system utils to get your system information and performing all the tasks on the clusters and computing storage. A ruby gem that will solve most of the daily devops tasks on the computing storage. Updating it with the complete devops including a yaml creator for the ansible. 
+A devops ruby system utils to get your system information and performing all the tasks on the clusters and computing storage. A ruby gem that will solve most of the daily devops tasks on the computing storage. Updating it with the complete devops including a yaml creator for the ansible. A ruby gem pushing soon to the ruby gems till then you can use the class and will solve most of the daily devops tasks on the computing storage. Updating it with the complete devops including a yaml creator for the ansible. Dont remember the system commands just install this ruby gem and call the functions or write ansible playbooks.
+
+```
+initialize the class
+devops = DevopsSystemUtil.new("/Users/gauravsablok/Desktop/Code/Release/datasets",
+                                                          "/usr/bin/desktop","fasta")
+devops.geneatepath # generate the bash commands for file movement
+devops.memory # check the memory
+devops.getsystemInfo # get the system information to kill the running pid process.
+```
+
 
 Gaurav Sablok \
 Frontiers: https://loop.frontiersin.org/people/33293/overview \
