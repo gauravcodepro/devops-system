@@ -1,5 +1,7 @@
 # devops_system_util
-A devops ruby system utils to get your system information and performing all the tasks on the clusters and computing storage. A ruby gem that will solve most of the daily devops tasks on the computing storage. Updating it with the complete devops including a yaml creator for the ansible. A ruby gem pushing soon to the ruby gems till then you can use the class and will solve most of the daily devops tasks on the computing storage. Updating it with the complete devops including a yaml creator for the ansible. Dont remember the system commands just install this ruby gem and call the functions or write ansible playbooks.
+A devops ruby system utils to get your system information and performing all the tasks on the clusters and computing storage. A ruby gem that will solve most of the daily devops tasks on the computing storage. Updating it with the complete devops including a yaml creator for the ansible. 
+
+A ruby gem pushing soon to the ruby gems till then you can use the class and will solve most of the daily devops tasks on the computing storage. Updating it with the complete devops including a yaml creator for the ansible. Dont remember the system commands just install this ruby gem and call the functions or write ansible playbooks.
 
 ```
 initialize the class
