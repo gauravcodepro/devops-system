@@ -21,4 +21,11 @@ class DevopsSystemUtil
     def memory
         return `memory_pressure`.split("\n")
     end
+    def user
+        return `whoami`.to_s
+    end
+    def changepermission(directory_path)
+        @directory = directory_path
+        exec("sudo chown -R $(whoami) @directory")
+    end
 end
