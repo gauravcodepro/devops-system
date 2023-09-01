@@ -8,6 +8,8 @@ devops = DevopsSystemUtil.new("/Users/gauravsablok/Desktop/Code/Release/datasets
 devops.geneatepath # generate the bash commands for file movement
 devops.memory # check the memory
 devops.getsystemInfo # get the system information to kill the running pid process.
+devops.user # get the user information
+devops.changepermission(directory_path) # will only ask for the password
 ```
 
 
