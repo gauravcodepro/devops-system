@@ -15,6 +15,7 @@ devops.getsystemInfo # get the system information to kill the running pid proces
 devops.user # get the user information
 devops.changepermission(directory_path) # will only ask for the password
 # will generate all the scp commands for the remote file transfer for file type mentioned
+# means look for csv file in this directory and genrate the transfer commands
 devops.generate_push_ssh("/Users/gauravsablok/Desktop/Code/Release/datasets", "csv", "1.1.1.1", "/usr/Desktop") 
 devops.user #additional methods
 devops.filesearch #additional methods
