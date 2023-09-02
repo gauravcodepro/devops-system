@@ -14,7 +14,8 @@ devops.memory # check the memory
 devops.getsystemInfo # get the system information to kill the running pid process.
 devops.user # get the user information
 devops.changepermission(directory_path) # will only ask for the password
-devops.generate_push_ssh("/Users/gauravsablok/Desktop/Code/Release/datasets", "csv", "1.1.1.1", "/usr/Desktop") # will generate all the scp commands for the remote file transfer
+# will generate all the scp commands for the remote file transfer for file type mentioned
+devops.generate_push_ssh("/Users/gauravsablok/Desktop/Code/Release/datasets", "csv", "1.1.1.1", "/usr/Desktop") 
 devops.user #additional methods
 devops.filesearch #additional methods
 devops.list #additional methods
