@@ -51,4 +51,6 @@ class DevopsSystemUtil
         @dir.each{|each| generating_path.push(dir_string + each) if each.end_with?(@file)}
         generating_path.map{ |n| "scp -r" + " " + n + " " + @remote + ":" + @remote_add}.each{ |each| puts each}
     end
+    def cpucount
+	return `cpuinfo`.split("\n").map{|line| line.split}.each{|n| puts n if n[0] == "Count:"}
 end
