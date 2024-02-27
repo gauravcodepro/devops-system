@@ -26,7 +26,7 @@ class DevopsSystemUtil
     end
     def changepermission(directory_path)
         @directory = directory_path
-        exec("sudo chown -R $(whoami) @directory")
+        exec("sudo chown -R $(whoami) #{@directory}")
     end
     def checksystemversion
         return `sh --version`
