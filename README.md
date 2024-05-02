@@ -20,7 +20,7 @@ devops.generate_push_ssh("/Users/gauravsablok/Desktop/Code/Release/datasets", "c
 devops.filesearch #additional methods
 devops.list #additional methods
 ```
-Gaurav Sablok \
+Gaurav \
 Academic Staff Member \
 Bioinformatics \
 Institute for Biochemistry and Biology \
