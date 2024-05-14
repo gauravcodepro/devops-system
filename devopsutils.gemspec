@@ -1,10 +1,10 @@
 Gem::Specification.new do |s|
-  s.name        = "devops_system_util_profiler"
+  s.name        = "devopsutils"
   s.version     = "0.0.2"
   s.summary     = "devops system utility profiler for bioinformatics that does all the task required in the bioinformatics such as moving files, 
 finding files, generating ssh and everything, added cpu information and additional server management"
   s.authors     = ["Gaurav Sablok"]
-  s.files       = ["lib/devops_system_util_profiler.rb"]
-  s.homepage    = "https://github.com/sablokgaurav/devops_system_util_profiler"
+  s.files       = ["lib/devopsutils.rb"]
+  s.homepage    = "https://github.com/gauravcodepro/devops-system"
   s.license     = "MIT"
 end
